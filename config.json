@@ -1,0 +1,33 @@
+{
+	
+	"inputFileName":"employees.csv",
+	"inputBucket":"aws-s3-20212348",
+	"inputDir":"emp/",
+	"encoding":"UTF-8",
+	"schemaFileName":"emp_schema.csv",
+	"schemaBucket":"aws-s3-20212348",
+	"schemaDir":"emp/",
+	"fileHead":"True",
+	"fileDelim":",",
+	"cntlValidation":"True",
+	"notNullColumns":"FIRST_NAME,LAST_NAME,HIRE_DATE,JOB_ID,SALARY",
+	"grainColumns":"FIRST_NAME,LAST_NAME",
+	"chunkSize":10,
+	"referenceKeyCheck":"True",
+	"masterFileName":"employees.csv",
+	"masterBucket":"aws-s3-20212348",
+	"masterDir":"emp/",
+	"referentialKeyFile":
+		[
+		{
+			"fileName":"dept.csv",
+			"fileBucket":"aws-s3-20212348",
+			"filePath":"dept/",
+			"masterReferencekey":"MANAGER_ID,DEPARTMENT_ID",
+			"childReferenceKey":"MANAGER_ID,DEPARTMENT_ID"
+			
+		}
+		]
+	
+	
+}

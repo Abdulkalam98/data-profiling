@@ -1,0 +1,7 @@
+DEPARTMENT_ID,dname,location,MANAGER_ID
+50,Accounting,New York,124
+60,Sales,Chicago,103
+40,Operations,Boston,101
+70,Research,Dallas,101
+110,Research,Dallas,102
+100,Operations,Boston,108

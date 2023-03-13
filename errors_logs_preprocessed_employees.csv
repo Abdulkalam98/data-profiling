@@ -1,0 +1,4 @@
+err_disc
+"{row: 4, column: ""HIRE_DATE""}: ""07-JUNE-02"" does not match the date format string ""%d-%b-%y"""
+"{row: 5, column: ""SALARY""}: ""12008.00"" is not integer"
+"{row: 7, column: ""SALARY""}: ""24000.00"" is not integer"
